@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/headshot.jpeg";
+import myImg from "../../Assets/avatar.svg";
+import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -14,29 +15,47 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.2em" }}>
-              Andreas Oven <span className="first-color">Aalsaunet</span>
+            <h1 style={{ fontSize: "2.6em" }}>
+              LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Andreas Oven Aalsaunet is a seasoned software engineer and tech tead within 3D and system development at Aalsaunet Consulting, bringing over 10 years of extensive experience across 
-              various facets of the development lifecycle. 
-            </p>
-            <p className="home-about-body">
-              With a master's degree in computer science from the University of Oslo, Andreas has cultivated his expertise through diverse roles in renowned organizations such as Apple, Accenture, and 
-              startups, alongside now running his own sole proprietorship. Throughout his career, Andreas has demonstrated versatility in working with a spectrum of technologies and frameworks. 
-              He has led development teams, spearheaded Top Level Feature deliverables at Apple, developed 3D software in his own venture, and contributed as a backend developer for projects at NAV. 
-              This rich background has endowed him with a technology-agnostic perspective and a profound understanding of software architecture and development practices.
-            </p>
-            <p className="home-about-body">
-              Specifically, Andreas has showcased adeptness in fullstack .NET development, with proficiency in C#, as well as mastery in technologies including React, Typescript, Azure Functions, Azure services 
-              like ServiceBus, Kubernetes, Rest API design and implementation, SQL Server, and OAuth2 authentication flows.
-              Recognized for his proactive and responsible approach, Andreas excels in collaborative environments, where he leverages his strong communication skills to foster effective teamwork. 
-              He has a passion for mentoring and sharing knowledge, serving as a valuable resource for colleagues seeking guidance and expertise.
-              With a commitment to continuous improvement and a dedication to delivering high-quality solutions, Andreas embodies the qualities of a dynamic and influential technology leader in the consultancy realm.
+              I fell in love with programming and I have at least learnt
+              something, I think… 🤷‍♂️
+              <br />
+              <br />I am fluent in classics like
+              <i>
+                <b className="purple"> C++, Javascript and Go. </b>
+              </i>
+              <br />
+              <br />
+              My field of Interest's are building new &nbsp;
+              <i>
+                <b className="purple">Web Technologies and Products </b> and
+                also in areas related to{" "}
+                <b className="purple">
+                  Blockchain.
+                </b>
+              </i>
+              <br />
+              <br />
+              Whenever possible, I also apply my passion for developing products
+              with <b className="purple">Node.js</b> and
+              <i>
+                <b className="purple">
+                  {" "}
+                  Modern Javascript Library and Frameworks
+                </b>
+              </i>
+              &nbsp; like
+              <i>
+                <b className="purple"> React.js and Next.js</b>
+              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-          <img src={myImg} className="img-fluid" style={{ borderRadius: 50 }} alt="avatar" />
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt>
           </Col>
         </Row>
         <Row>
