@@ -292,6 +292,10 @@ button:focus {
   color: #6d2ab9;
 }
 
+.third-color {
+  color: #ffbb00;
+}
+
 .Typewriter__wrapper {
   font-size: 2.0em !important;
   color: #568868 !important;
@@ -329,7 +333,8 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
-  background: #21222381;
+  background: #16161781;
+  z-index: -1;
 }
 
 .home-about-description {
@@ -556,7 +561,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .tech-icons {
@@ -594,6 +599,7 @@ button:focus {
   border: none !important;
   color: white !important;
   background-color: transparent !important;
+  text-align: left !important;
 }
 
 .about-activity {
