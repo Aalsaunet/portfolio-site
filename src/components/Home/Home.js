@@ -2,7 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/digital-twin.png";
 import Particle from "../Particle";
-import Home2 from "./Home2";
+import Home2 from "./subcomponents/Home2";
+import Home3 from "./subcomponents/Home3";
+import Home4 from "./subcomponents/Home4";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
 
@@ -38,6 +40,9 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <Home3 />
+      <Home4 />
+      
     </section>
   );
 }

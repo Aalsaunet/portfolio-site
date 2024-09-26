@@ -5,7 +5,11 @@ import { ImPointRight } from "react-icons/im";
 function AboutCard() {
   return (
     <Card className="quote-card-view">
-      <p><strong>Aalsaunet Consulting</strong> is a dynamic software consultancy firm dedicated to helping businesses and organizations achieve their digital transformation goals through innovative software solutions. With a strong focus on client success, Aalsaunet specializes in delivering custom software development, architecture consulting, and IT strategy services to ensure optimal business performance. By leveraging cutting-edge technologies and industry best practices, the team at Aalsaunet works closely with clients to design scalable, efficient, and secure solutions tailored to their unique needs.</p>
+      <p><strong>Aalsaunet Consulting</strong> is a dynamic software consultancy firm dedicated to helping businesses and organizations achieve their 
+      digital transformation goals through innovative software solutions. With a strong focus on client success, Aalsaunet specializes in delivering 
+      custom software development, architecture consulting, and IT strategy services to ensure optimal business performance. 
+      By leveraging cutting-edge technologies and industry best practices, the team at Aalsaunet works closely with clients to design scalable, efficient, 
+      and secure solutions tailored to their unique needs.</p>
 
       <h3>Key Services:</h3>
       <ul>
@@ -36,7 +40,8 @@ function AboutCard() {
           <li>Energy & Utilities</li>
       </ul>
 
-      <p><strong>Aalsaunet Consulting</strong> is your trusted partner for digital transformation, guiding your business through the complex landscape of technology with innovative and effective software solutions.</p>
+      <p><strong>Aalsaunet Consulting</strong> is your trusted partner for digital transformation, 
+      guiding your business through the complex landscape of technology with innovative and effective software solutions.</p>
     </Card>
   );
 }

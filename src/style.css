@@ -344,6 +344,14 @@ button:focus {
   text-align: center;
 }
 
+.home-about-description2 {
+  color: white !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  text-align: center;
+  background: #16161781;
+}
+
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;

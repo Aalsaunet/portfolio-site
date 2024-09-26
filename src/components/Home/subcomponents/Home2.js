@@ -1,9 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/process-overload-illustration.jpeg";
-import Toolstack from "./Toolstack";
+import Card from "react-bootstrap/Card";
+import laptopImg from "../../../Assets/process-overload-illustration.jpeg";
 
 function Home2() {
   return (
@@ -14,14 +12,20 @@ function Home2() {
             md={7}
             style={{
               justifyContent: "left",
-              paddingTop: "30px",
+              paddingTop: "160px",
               paddingBottom: "50px",
             }}
           >
             <h1 style={{ textAlign: "left"}}>
               Fast <strong className="third-color">delivery, </strong>fast <strong className="third-color">results</strong>
             </h1>
-            <Aboutcard />
+            <Card className="quote-card-view">
+              <p><strong>Aalsaunet Consulting</strong> is a dynamic software consultancy firm dedicated to helping businesses and organizations achieve their 
+              digital transformation goals through innovative software solutions. With a strong focus on client success, Aalsaunet specializes in delivering 
+              custom software development, architecture consulting, and IT strategy services to ensure optimal business performance. 
+              By leveraging cutting-edge technologies and industry best practices, the team at Aalsaunet works closely with clients to design scalable, efficient, 
+              and secure solutions tailored to their unique needs.</p>
+            </Card>
           </Col>
           <Col
             md={5}
@@ -31,16 +35,6 @@ function Home2() {
             <img src={laptopImg} alt="about" className="img-fluid" style={{ borderRadius: 50 }} />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
-
-        <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
       </Container>
     </Container>
   );

@@ -7,6 +7,8 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Techstack from "./Techstack";
+import Toolstack from "./Toolstack";
 
 function About() {
   return (
@@ -89,6 +91,16 @@ function About() {
             </ul>
           </Col>
         </Row>
+        <h1 className="project-heading">
+          Professional <strong className="purple">Skillset </strong>
+        </h1>
+
+        <Techstack />
+
+        <h1 className="project-heading">
+          <strong className="purple">Tools</strong> I use
+        </h1>
+        <Toolstack />
       </Container>
     </Container>
   );
